@@ -1,0 +1,41 @@
+---
+name: Openlabs Demo
+description: Easy to ease imersive learning platform.
+branding:
+    logo: _images/logo.png
+    banner: _images/banner.png
+    textColor: '#012748'
+    header:
+        link: https://developer.ibm.com/openlabs/demo
+        text: IBM Openlabs
+        logo: _images/logo.png
+license: MIT
+duration: 1 hour
+categories:
+    - Learning
+intro: README.md
+documentation: https://github.com/openlabs-explorer/demo/blob/main/README.md
+commands:
+    - name: Clone Template
+      cmd: git clone https://github.com/openlabs-explorer/demo.git
+      cwd: /home/student
+      stepMessage: Cloning repository ....
+environment:
+    terminal:
+        name: Terminal
+        enabled: true
+    ide:
+        name: IDE
+        enabled: true
+        url: '{{ IDE.url }}'
+    application:
+        name: App Preview
+        url: '{{ DNS.host }}'
+        enabled: false
+backend:
+    service: MOCK-SERVICE
+tileInfo:
+    - title: RHEL Basics
+      description: Learn basics commands and fundamentals of the Linux operating system.
+      duration: 30 min
+      content: rhel-basics.md
