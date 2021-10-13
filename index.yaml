@@ -26,7 +26,7 @@ environment:
         enabled: true
     ide:
         name: IDE
-        enabled: true
+        enabled: false
         url: '{{ IDE.url }}'
     application:
         name: App Preview
