@@ -1,33 +1,11 @@
-MariaDB Operator is a key technology for MariaDB cloud strategy that assists in creating MariaDB server and database easily by defining basic Custom Resource. This operator enables the customers to deploy MariaDB platform in a variety of database configurations in a Kubernetes environment. 
+Openlabs is a immersive learning platform which provides step by step instructions on how to get started with technology.
 
-### Features of MariaDB Operator:
+### Steps
 
-- Setup a MariaDB server with configured version.
+-   Clone the following repository: https://github.ibm.com/openlabs-explorer/demo
 
-- Create a custom database along with a user credential set for the custom database.
+-   Modify the values in the index.yaml to match your branding and need.
 
-- Persistent Volume usage where MariaDB can write its data files.
+-   Detailed file instructions for the files referenced in the index.yaml will be present in the /content/ directory.
 
-- Seamless upgrades of MariaDB without loosing existing data.
-
-- Take full backup of Database at user-defined location.
-
-- Schedule backup at regular intervals.
-
-- Monitor metrics for for MariaDB node.
-
-### Architecture
-
-![arch](_images/maria-arch.png)
-
-
-### Objective of tutorial
-
-In this tutorial,we are going to cover following topics:
-
-- Install MariaDB Operator and verify its successful installation.
-- Create an instance of MariaDB Operator and verify status of pods and services.
-- Access MariaDB Instance and create database tables in MariaDB.
-- Schedule backup of MariaDB at regular intervals.
-- Enable Monitoring services on MariaDB Server using Prometheus and Grafana Operator.
-- Cleanup the Operator resources.
+### Structure
