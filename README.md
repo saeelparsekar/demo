@@ -10,7 +10,7 @@ Openlabs is a immersive learning platform which provides step by step instructio
 
 ### Structure
 
-![Structure](../_images/structure.png 'Structure')
+![Structure](_images/structure.png 'Structure')
 
 ### Configuration file (index.yaml)
 
