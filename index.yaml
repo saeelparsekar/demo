@@ -32,6 +32,12 @@ environment:
         name: App Preview
         url: '{{ DNS.host }}'
         enabled: false
+config:
+    launchBtn:
+        buttonLabel: Launch Lab
+    execCmd : 
+        autoExecute: false
+        buttonLabel: Install
 backend:
     service: MOCK-SERVICE
 tileInfo:
