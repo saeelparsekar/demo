@@ -33,6 +33,7 @@ environment:
         url: '{{ DNS.host }}'
         enabled: false
 config:
+    auth: appid
     launchBtn:
         buttonLabel: Launch Lab
     execCmd : 
