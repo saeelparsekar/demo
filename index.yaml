@@ -42,7 +42,15 @@ config:
 backend:
     service: MOCK-SERVICE
 tileInfo:
-    - title: RHEL Basics
-      description: Learn basics commands and fundamentals of the Linux operating system.
-      duration: 30 min
-      content: rhel-basics.md
+    - title: About Openlabs Explorer
+      description: Introduction to Openlabs Explorer and its features.
+      duration: 5 min
+      content: about-explorer.md
+    - title: Understanding Git Repository
+      description: Documenting the git repository format and requirements
+      duration: 10 min
+      content: understanding-git-repository.md
+    - title: Create your first lab
+      description: Step by step guide on creating your first lab
+      duration: 10 min
+      content: create-your-lab.md
