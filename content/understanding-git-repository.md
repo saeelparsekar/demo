@@ -18,8 +18,6 @@ The user can choose where he wants to create the repository, however, it has to 
 
 This is the Configuration file that is responsible for rendering the GitHub content onto the explorer application.
 
-![explorer_index.yaml.png](_attachments/explorer_index.yaml.png)
-
 The entire configuration file is divided into multiple sections, each section details are described as below:
 
 - **Metadata Section:**
@@ -96,15 +94,15 @@ The entire configuration file is divided into multiple sections, each section de
 
 ### Readme.md
 
-    This MD file will contain a brief overview of your lab/operator. you can enter some cover data about the lab which will help the user understand the lab better. it supports MD content along with images and videos.
+This MD file will contain a brief overview of your lab/operator. you can enter some cover data about the lab which will help the user understand the lab better. it supports MD content along with images and videos.
 
 ### _images
 
-    This folder will contain all your images, videos , logos, etc. you will have to reference the images in your code with ***_images/<imagename-with-extension>***
+This folder will contain all your images, videos , logos, etc. you will have to reference the images in your code with ***_images/<imagename-with-extension>***
 
 ### content
 
-    This Folder will contain all the tutorials or documentation guide files. these files are MD files and they follow a specific format to be rendered within the readme panel.
+This Folder will contain all the tutorials or documentation guide files. these files are MD files and they follow a specific format to be rendered within the readme panel.
 
     Sample File: 
 
