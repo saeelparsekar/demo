@@ -11,7 +11,7 @@ GitHub repository is the primary requirement of the explorer to run. You need to
 
 The user can choose where he wants to create the repository, however, it has to be created with a predefined structure and necessary set of files.
 
-![gitstructure.png](_attachments/gitstructure.png)
+![gitstructure.png](../_images/structure.png)
 
 
 ### index.yaml
@@ -19,6 +19,8 @@ The user can choose where he wants to create the repository, however, it has to 
 This is the Configuration file that is responsible for rendering the GitHub content onto the explorer application.
 
 The entire configuration file is divided into multiple sections, each section details are described as below:
+
+![explorer_indexyaml.png](../_images/explorer_indexyaml.png)
 
 - **Metadata Section:**
 
@@ -122,6 +124,8 @@ This Folder will contain all the tutorials or documentation guide files. these f
 
     ```
 
-    <image how content will be shown>
+Above file will be seen like below on UI.
+
+![explorer_samplefile.png](../_images/explorer_samplefile.png)
 
 This concludes the tutorial on Git Structure. In the next tutorial, we will explain the process of creating a git repo with all the mentioned guidelines and exploring the same on the Explorer UI.
