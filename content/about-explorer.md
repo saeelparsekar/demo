@@ -27,7 +27,7 @@ Openlabs is an immersive learning platform that provides step-by-step instructio
 
 To understand the explorer UI, We can divide it into multiple sections:
 
-<image with marked sections>
+![explorer_fullUIPage.png](../_images/explorer_fullUIPage.png)
 
 - ***Header Section***
 This section will have branding details on the left which will show a logo and title with a link to your product home page and on the right-hand side it will have some lab / user-specific controls like :
