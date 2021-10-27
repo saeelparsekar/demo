@@ -54,7 +54,3 @@ tileInfo:
       description: Step by step guide on creating your first lab
       duration: 10 min
       content: create-your-lab.md
-    - title: Sample File
-      description: Sample which shows the format to be used while creating tutorial or guide md files
-      duration: 10 min
-      content: rhel-basics.md
