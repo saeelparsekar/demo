@@ -15,11 +15,6 @@ categories:
     - Learning
 intro: README.md
 documentation: https://github.com/openlabs-explorer/demo/blob/main/README.md
-commands:
-    - name: Clone Template
-      cmd: git clone https://github.com/openlabs-explorer/demo.git
-      cwd: /home/student/projects
-      stepMessage: Cloning repository ....
 environment:
     terminal:
         name: Terminal
